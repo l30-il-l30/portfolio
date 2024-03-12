@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
         <form action="" className="flex flex-col max-w-[600px] w-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">Contact</p>
-                <p className="text-gray-300 py-4">// Submit the form bellow or shoot me an email - leoventura@outlook.it</p>
+                <p className="text-gray-300 py-4">\/\/ Submit the form bellow or shoot me an email - leoventura@outlook.it</p>
             </div>
 
             <input type="text" className="bg-[#ccd6f6] p-2" placeholder="Nome" name="name" />
