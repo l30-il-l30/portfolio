@@ -29,7 +29,7 @@ const Skills: React.FC = () => {
         <div className="max-w-[1000px] px-4 mx-auto p4 flex flex-col justify-center w-full h-full ">
             <div>
                 <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">Skills</p>
-                <p className="py-4">// These are the technologies I've worked with</p>
+                <p className="py-4">\// These are the technologies I've worked with</p>
             </div>
 
             <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 text-center py-8">
