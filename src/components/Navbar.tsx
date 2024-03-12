@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
 
         {/* hamburger */}
         <div onClick={handleClick} className="md:hidden z-10">
-            { !nav ? <FaBars /> : <FaTimes /> }
+            { !nav ? <FaBars size={25} /> : <FaTimes size={25} /> }
         </div>
 
         {/* mobile menu */}
