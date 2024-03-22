@@ -26,7 +26,7 @@ const Work: React.FC = () => {
                             <a href="/" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                 <button>Demo</button>
                             </a>
-                            <a href="https://github.com/l30-il-l30/portfolio" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" target="_blank">
+                            <a href="https://github.com/l30-il-l30/portfolio" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" rel="noreferrer">
                                 <button>Code</button>
                             </a>
                         </div>
@@ -42,10 +42,10 @@ const Work: React.FC = () => {
                             React JS Application
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="http://www.bossaccademy.it" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" target="_blank">
+                            <a href="http://www.bossaccademy.it" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" rel="noreferrer">
                                 <button>Demo</button>
                             </a>
-                            <a href="https://github.com/l30-il-l30/B.O.S.S." className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" target="_blank">
+                            <a href="https://github.com/l30-il-l30/B.O.S.S." className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" rel="noreferrer">
                                 <button>Code</button>
                             </a>
                         </div>
