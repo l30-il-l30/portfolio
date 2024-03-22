@@ -42,7 +42,7 @@ const Work: React.FC = () => {
                             React JS Application
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="/" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                            <a href="www.bossaccademy.it" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                 <button>Demo</button>
                             </a>
                             <a href="https://github.com/l30-il-l30/B.O.S.S." className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
