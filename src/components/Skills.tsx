@@ -18,7 +18,6 @@ import tailwindcss from "../assets/tailwind.png";
 import ts from "../assets/ts.png";
 import jquery from "../assets/jquery.png";
 import laravel from "../assets/laravel.png";
-import sveltekit from "../assets/svelte.png";
 import python from "../assets/python.png";
 import json from "../assets/json.png";
 import xml from "../assets/xml.png";
@@ -89,10 +88,6 @@ const Skills: React.FC = () => {
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                     <img className="w-20 mx-auto" src={laravel} alt="laravel" />
                     <p className="py-4">LARAVEL</p>
-                </div>
-                <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={sveltekit} alt="laravel" />
-                    <p className="py-4">SVELTEKIT</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                     <img className="w-20 mx-auto" src={python} alt="python" />
