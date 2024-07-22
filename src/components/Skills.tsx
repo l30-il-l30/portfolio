@@ -18,6 +18,7 @@ import tailwindcss from "../assets/tailwind.png";
 import ts from "../assets/ts.png";
 import jquery from "../assets/jquery.png";
 import laravel from "../assets/laravel.png";
+import sveltekit from "../assets/sveltekit.png";
 import python from "../assets/python.png";
 import json from "../assets/json.png";
 import xml from "../assets/xml.png";
@@ -32,89 +33,95 @@ const Skills: React.FC = () => {
                 <p className="py-4">&frasl;&nbsp;&frasl;&nbsp;&nbsp;These are the technologies I've worked with</p>
             </div>
 
-            <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 text-center py-8">
+            <div
+                className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 text-center py-8">
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={html} alt="html" />
+                    <img className="w-20 mx-auto" src={html} alt="html"/>
                     <p className="py-4">HTML</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={css} alt="css" />
+                    <img className="w-20 mx-auto" src={css} alt="css"/>
                     <p className="py-4">CSS</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={tailwindcss} alt="tailwindcss" />
+                    <img className="w-20 mx-auto" src={tailwindcss} alt="tailwindcss"/>
                     <p className="py-4">TAILWINDCSS</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={ts} alt="ts" />
+                    <img className="w-20 mx-auto" src={ts} alt="ts"/>
                     <p className="py-4">TYPESCRIPT</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={javascript} alt="javascript" />
+                    <img className="w-20 mx-auto" src={javascript} alt="javascript"/>
                     <p className="py-4">JAVASCRIPT</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={ejs} alt="ejs" />
+                    <img className="w-20 mx-auto" src={ejs} alt="ejs"/>
                     <p className="py-4">EJS</p>
                 </div>
-                <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col items-center justify-center">
-                    <img className="w-20 mx-auto" src={json} alt="json" />
+                <div
+                    className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col items-center justify-center">
+                    <img className="w-20 mx-auto" src={json} alt="json"/>
                     <p className="py-4">JSON</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={jquery} alt="jquery" />
+                    <img className="w-20 mx-auto" src={jquery} alt="jquery"/>
                     <p className="py-4">JQUERY</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={bootstrap} alt="bootstrap" />
+                    <img className="w-20 mx-auto" src={bootstrap} alt="bootstrap"/>
                     <p className="py-4">BOOTSTRAP</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={react} alt="react" />
+                    <img className="w-20 mx-auto" src={react} alt="react"/>
                     <p className="py-4">REACT</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={node} alt="node" />
+                    <img className="w-20 mx-auto" src={node} alt="node"/>
                     <p className="py-4">NODE</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={php} alt="php" />
+                    <img className="w-20 mx-auto" src={php} alt="php"/>
                     <p className="py-4">PHP</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={mysql} alt="mysql" />
+                    <img className="w-20 mx-auto" src={mysql} alt="mysql"/>
                     <p className="py-4">MYSQL</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={laravel} alt="laravel" />
+                    <img className="w-20 mx-auto" src={laravel} alt="laravel"/>
                     <p className="py-4">LARAVEL</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={python} alt="python" />
+                    <img className="w-20 mx-auto" src={sveltekit} alt="laravel"/>
+                    <p className="py-4">SVELTEKIT</p>
+                </div>
+                <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <img className="w-20 mx-auto" src={python} alt="python"/>
                     <p className="py-4">PYTHON</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={java} alt="java" />
+                    <img className="w-20 mx-auto" src={java} alt="java"/>
                     <p className="py-4">JAVA</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={cpp} alt="cpp" />
+                    <img className="w-20 mx-auto" src={cpp} alt="cpp"/>
                     <p className="py-4">C++</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={cs} alt="cs" />
+                    <img className="w-20 mx-auto" src={cs} alt="cs"/>
                     <p className="py-4">C#</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={xml} alt="xml" />
+                    <img className="w-20 mx-auto" src={xml} alt="xml"/>
                     <p className="py-4">XML</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={docker} alt="docker" />
+                    <img className="w-20 mx-auto" src={docker} alt="docker"/>
                     <p className="py-4">DOCKER</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                    <img className="w-20 mx-auto" src={github} alt="github" />
+                    <img className="w-20 mx-auto" src={github} alt="github"/>
                     <p className="py-4">GITHUB</p>
                 </div>
             </div>
