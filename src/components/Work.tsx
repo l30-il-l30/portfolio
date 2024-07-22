@@ -62,7 +62,7 @@ const Work: React.FC = () => {
                             Spotify Clone Application
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="#" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/l30-il-l30/spotify-desktop-app" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" rel="noopener noreferrer" target="_blank">
                                 <button>Demo</button>
                             </a>
                             <a href="https://github.com/l30-il-l30/spotify-desktop-app" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" rel="noopener noreferrer" target="_blank">
