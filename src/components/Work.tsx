@@ -2,6 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import boss from "../assets/boss.png";
 import logo from "../assets/user.png";
+import spotify from "../assets/spotify.jpeg";
 
 const Work: React.FC = () => {
     return <Element name="work" className="bg-[#0a192f] w-full md:h-screen text-gray-300">
@@ -46,6 +47,25 @@ const Work: React.FC = () => {
                                 <button>Demo</button>
                             </a>
                             <a href="https://github.com/l30-il-l30/B.O.S.S." className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" rel="noreferrer">
+                                <button>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* grid template */}
+                <div style={{ backgroundImage: `url(${spotify})` }} className="shadow-ls shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+
+                    {/* Hover effect */}
+                    <div className="opacity-0 group-hover:opacity-100">
+                        <span className="text-2xl font-bold text-white tracking-widee">
+                            Spotify Clone Application
+                        </span>
+                        <div className="pt-8 text-center">
+                            <a href="#" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" rel="noreferrer" target="_blank">
+                                <button>Demo</button>
+                            </a>
+                            <a href="https://github.com/l30-il-l30/spotify-desktop-app" className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" rel="noreferrer" target="_blank">
                                 <button>Code</button>
                             </a>
                         </div>
