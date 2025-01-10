@@ -4,6 +4,7 @@ import boss from "../assets/boss.png";
 import logo from "../assets/user.png";
 import spotify from "../assets/spotify.jpeg";
 import booklet from "../assets/booklet.png";
+import yolo from "../assets/yolo.jpg";
 
 const Work: React.FC = () => {
     return <Element name="work" className="bg-[#0a192f] w-full md:h-screen text-gray-300">
@@ -41,7 +42,8 @@ const Work: React.FC = () => {
                 </div>
 
                 {/* grid template */}
-                <div style={{backgroundImage: `url(${boss})`}} className="shadow-ls shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                <div style={{backgroundImage: `url(${boss})`}}
+                     className="shadow-ls shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
                     {/* Hover effect */}
                     <div className="opacity-0 group-hover:opacity-100">
@@ -63,7 +65,8 @@ const Work: React.FC = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${spotify})`}} className="shadow-ls shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                <div style={{backgroundImage: `url(${spotify})`}}
+                     className="shadow-ls shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     <div className="opacity-0 group-hover:opacity-100">
                         <span className="text-2xl font-bold text-white tracking-widee">
                             Spotify Clone Application
@@ -83,7 +86,8 @@ const Work: React.FC = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${booklet})`}} className="shadow-ls shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                <div style={{backgroundImage: `url(${booklet})`}}
+                     className="shadow-ls shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     <div className="opacity-0 group-hover:opacity-100">
                         <span className="text-2xl font-bold text-white tracking-widee">
                             Booklet Online Book Store
@@ -95,6 +99,27 @@ const Work: React.FC = () => {
                                 <button>Demo</button>
                             </a>
                             <a href="https://github.com/l30-il-l30/booklet-online-bookstor"
+                               className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
+                               rel="noopener noreferrer" target="_blank">
+                                <button>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${yolo})`}}
+                     className="shadow-ls shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div className="opacity-0 group-hover:opacity-100">
+                        <span className="text-2xl font-bold text-white tracking-widee">
+                            Detection and count phone with object detection
+                        </span>
+                        <div className="pt-8 text-center">
+                            <a href="https://github.com/l30-il-l30/phone-detector"
+                               className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
+                               rel="noopener noreferrer" target="_blank">
+                                <button>Demo</button>
+                            </a>
+                            <a href="https://github.com/l30-il-l30/phone-detector"
                                className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                                rel="noopener noreferrer" target="_blank">
                                 <button>Code</button>
