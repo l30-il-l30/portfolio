@@ -4,11 +4,11 @@ services:
   react-app:
     container_name: portfolio
     build:
-      context: .
+      context: ./website
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
     volumes:
-      - .:/app
+      - ./website:/app
     stdin_open: true
     tty: true
